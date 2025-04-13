@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Single Package",
+      "description": "Ideal for couples or two individuals looking to share a fitness journey.",
+      "price": "$45/month",
+      "features": [
+        "Access to cardio machines",
+        "Locker included",
+        "Group fitness classes",
+        "Basic strength training equipment"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Duo Package",
+      "description": "Perfect for individuals who prefer a more focused, personal fitness experience.",
+      "price": "$35/month",
+      "popular": true,
+      "features": [
+        "Access to cardio machines",
+        "Locker included",
+        "Yoga and Zumba classes",
+        "Advanced strength training equipment",
+        "Discount on personal training"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Family Package",
+      "description": "Designed for families looking to stay active together with great value.",
+      "price": "$75/month",
+      "features": [
+        "24/7 access",
+        "Sauna and steam room",
+        "Unlimited group fitness classes",
+        "Free personal trainer sessions",
+        "Smart locker system",
+        "Free fitness assessments every 3 months"
+      ]
+    }
+  ]
+  
