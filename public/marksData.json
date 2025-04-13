@@ -1,7 +1,4 @@
-import React from 'react';
-import { Line, LineChart, XAxis, YAxis } from 'recharts';
-
-const resultData = [
+[
     {
         "id": 1,
         "name": "John Doe",
@@ -48,7 +45,7 @@ const resultData = [
         "id": 7,
         "name": "Eva Wilson",
         "physics": 88,
-        "chemistry": 30,
+        "chemistry": 90,
         "math": 87
     },
     {
@@ -73,20 +70,3 @@ const resultData = [
         "math": 90
     }
 ]
-
-
-
-const ResultChart = () => {
-    return (
-        <div className='flex'>
-            <LineChart width={200} height={200} data={resultData}>
-                <XAxis dataKey="name"></XAxis>
-                <YAxis ></YAxis>
-                <Line dataKey="math" stroke='red'></Line>
-                <Line dataKey="chemistry" stroke='yellow'></Line>
-            </LineChart>
-        </div>
-    );
-};
-
-export default ResultChart;
